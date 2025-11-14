@@ -6,9 +6,9 @@ practica 11 ejericio 3*/
 int resultado; //variable global
 
 void multiplicar(); // prototipo de la función
-void suma();
-void resta();
-void division();
+void sumar(); // prototipo de la función
+void restar(); // prototipo de la función
+void dividir(); // prototipo de la función
 
 int main()
 {
@@ -27,15 +27,15 @@ void multiplicar() //función multiplicar
 {
    resultado = 5 * 4;
 }
-void sumar() //función multiplicar
+void sumar() //función sumar
 {
    resultado = 5 + 4;
 }
-void restar() //función multiplicar
+void restar() //función restar
 {
    resultado = 5 - 4;
 }
-void dividir() //función multiplicar
+void dividir() //función dividir
 {
    resultado = 5 / 4;
 }

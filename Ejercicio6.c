@@ -11,6 +11,7 @@ int main()
   {
     llamarFuncion();
   } 
+  return 0;
 }
 void llamarFuncion()
 {

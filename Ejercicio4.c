@@ -14,6 +14,7 @@ int main()
   // La variable cont es local a la función main
   int cont;
   enteraGlobal = 0; // La función main accede a la variable global
+  printf("Valor de la variable global: %d\n", enteraGlobal); //Imprimir el valor inicial de la variable global
   for (cont=0 ; cont<5 ; cont++)
 {
   incremento();
@@ -23,8 +24,7 @@ int main()
 
 void incremento()
 {
-
-  int enteraLocal = 5;// La variable enteraLocal es local a la función incremento
+ int enteraLocal = 5;// La variable enteraLocal es local a la función incremento
   enteraGlobal = enteraGlobal + 2;
   int res = enteraLocal + enteraGlobal;
   
